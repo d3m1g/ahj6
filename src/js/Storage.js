@@ -1,3 +1,5 @@
+/* eslint-disable eol-last */
+/* eslint-disable indent */
 export default class Storage {
  constructor(storage) {
    this.storage = storage;

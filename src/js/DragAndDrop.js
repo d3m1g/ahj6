@@ -10,7 +10,7 @@ export default function DragAndDrop(event, element) {
    } else {
       closest.closest('.task_list').insertBefore(element, closest);
    }
- }   else if (closest.classList.contains('task_list')) {
+ } else if (closest.classList.contains('task_list')) {
        closest.append(element);
  }
 }

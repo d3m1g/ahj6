@@ -1,19 +1,19 @@
 /* eslint-disable eol-last */
 /* eslint-disable indent */
 export default class Storage {
- constructor(storage) {
-   this.storage = storage;
+  constructor(storage) {
+    this.storage = storage;
  }
 
- save(data) {
-   this.storage.setItem('taskManager', JSON.stringify(data));
+   save(data) {
+     this.storage.setItem('taskManager', JSON.stringify(data));
  }
 
- load() {
-   try {
-     return JSON.parse(this.storage.getItem('taskManager'));
+   load() {
+     try {
+       return JSON.parse(this.storage.getItem('taskManager'));
    } catch (e) {
-     throw new Error('Invalid object');
+       throw new Error('Invalid object');
    }
  }
 }

@@ -1,3 +1,5 @@
+/* eslint-disable eol-last */
+/* eslint-disable indent */
 import DragAndDrop from './DragAndDrop';
 
 export default class TaskManager {

@@ -1,3 +1,5 @@
+/* eslint-disable eol-last */
+/* eslint-disable indent */
 import TaskManager from './TaskManager';
 import Storage from './Storage';
 

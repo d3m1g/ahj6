@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "jest": {
-    "testEnvironment": "jsdom",
-  "license": "MIT",
+    "testEnvironment": "jsdom"
+  },
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint .",    
+    "lint": "eslint .",
     "show:dist": "live-server dist"
   },
   "devDependencies": {
